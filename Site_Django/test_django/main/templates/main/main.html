@@ -1,0 +1,13 @@
+    {% extends 'main/base.html' %}
+
+    {% block title %}
+    {{title}}
+    {% endblock %}
+    
+    {% block content %} 
+    <h1 id="main-text">Простий та надійний сервіс</h1>
+    <h3 id="sec-text">Робимо просту та непомітну працю.</h3>
+    <a href="{% url 'kontakty' %}">
+    <button type="button" class="btn-3 btn btn-primary">Контакти</button>
+    </a>
+    {% endblock %}

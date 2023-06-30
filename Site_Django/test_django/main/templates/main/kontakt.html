@@ -1,0 +1,24 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+{{title}}
+{% endblock %}
+  
+{% block content %}
+<h1>{{title}}</h1>
+<div class="all-col">
+<div class="container">
+    <div class="row">
+      <div class="col-md-3">Вже 5 років ми допомогаемо людям з простотою та надійністю.</div>
+      <div class="col-md-3">Ми гарантуемо повну профксіональність у своему ділі.</div>
+      <div class="col-md-3">Нам довірилось понад 2500+ людей, відгуки можна глянути у нас в Інстаграмі.</div>
+      <div class="col-md-3">За детальною інфрмаціею переходьте до Інстаграму або Телеграму!</div>
+    </div>
+  </div>
+</div>
+<div class="all-btn">
+<button type="button" class="btn-inst btn btn-warning">Instagram</button>
+<button type="button" class="btn btn-primary">Telegram</button>
+<button type="button" class="btn-yt btn btn-danger">YouTube</button>
+</div>
+{% endblock %}
